@@ -1,0 +1,10 @@
+^G:\USERS\LIGH1\DESKTOP\SAMPLES-MASTER (1)\SAMPLES-MASTER\FFI\HELLO_WORLD\HELLO_LIBRARY\CMAKEFILES\DFB18F6A49F3CE210F59C7130CFE9EF0\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SG:/Users/ligh1/Desktop/samples-master (1)/samples-master/ffi/hello_world/hello_library" "-BG:/Users/ligh1/Desktop/samples-master (1)/samples-master/ffi/hello_world/hello_library" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "G:/Users/ligh1/Desktop/samples-master (1)/samples-master/ffi/hello_world/hello_library/hello_library.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

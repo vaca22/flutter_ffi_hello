@@ -1,0 +1,4 @@
+﻿  Building Custom Rule G:/Users/ligh1/Desktop/samples-master (1)/samples-master/ffi/hello_world/hello_library/CMakeLists.txt
+  hello.c
+     Creating library G:/Users/ligh1/Desktop/samples-master (1)/samples-master/ffi/hello_world/hello_library/Debug/hello.lib and object G:/Users/ligh1/Desktop/samples-master (1)/samples-master/ffi/hello_world/hello_library/Debug/hello.exp
+  hello_library.vcxproj -> G:\Users\ligh1\Desktop\samples-master (1)\samples-master\ffi\hello_world\hello_library\Debug\hello.dll
